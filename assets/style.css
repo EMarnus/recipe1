@@ -40,3 +40,11 @@ header li {
     width: 100%;
     background: url(images/libby-penner-4CnaFQRDI0A-unsplash\ \(1\).jpg) center center;
 }
+
+#recipes {
+    margin-left: 15%;
+}
+
+#recipes li {
+    list-style-type: none;
+}
