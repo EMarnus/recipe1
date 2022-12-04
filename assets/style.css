@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    height: 15%;
+    width: auto;
+    background-color: slategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#left-logo {
+    flex-shrink: 0;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav > ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header li {
+    margin-right: 10px;
+    font-size: xx-large;
+}
+
+#hero {
+    height: 300px;
+    width: 100%;
+    background: url(images/libby-penner-4CnaFQRDI0A-unsplash\ \(1\).jpg) center center;
+}
