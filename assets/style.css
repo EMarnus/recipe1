@@ -48,3 +48,18 @@ header li {
 #recipes li {
     list-style-type: none;
 }
+
+#recipes {
+    /* display: inline; */
+    padding: 15px;
+    display: flex;
+}
+
+#starter, #main, #desert {
+    flex: 1 1 0%;
+    display: flex;
+}
+
+#recipes img {
+    
+}
