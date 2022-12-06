@@ -19,7 +19,7 @@ header {
     flex-shrink: 0;
 }
 
-a {
+header a {
     text-decoration: none;
     color: antiquewhite;
 }
@@ -42,7 +42,7 @@ header li {
 }
 
 #recipes {
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 #recipes li {
@@ -53,11 +53,13 @@ header li {
     /* display: inline; */
     padding: 15px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#starter, #main, #desert {
-    flex: 1 1 0%;
-    display: flex;
+#recipes div {
+    flex: 1 0 0%;
+    /* display: flex; */
 }
 
 #recipes img {
