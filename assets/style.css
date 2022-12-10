@@ -4,7 +4,10 @@
     border: 0;
 }
 
-
+/* Colors
+Headier/Footer: #9E1F1E
+Body: #56423E
+Aside: #BEA6A1 */
 
 header {
     height: 15%;
@@ -49,7 +52,7 @@ header li {
 }
 
 #heading {
-    
+
 }
 
 #left {
@@ -65,11 +68,12 @@ header li {
 #right {
     /* display: inline; */
     width: 25%;
+    height: fit-content;
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    /* justify-content: center; */
 
     background-color: aqua;
 }
@@ -81,7 +85,8 @@ header li {
 }
 
 #right img {
-    
+    max-width: 100%;
+    height: auto;
 }
 
 

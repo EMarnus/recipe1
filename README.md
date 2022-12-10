@@ -1,6 +1,6 @@
-This is a website to showcase a simple 3 course Christmas dinner, with the 3 recipies on their own page making it easy if you only want one. 
+This is a website to showcase a simple 3 course Christmas dinner. This is the end destination of social media posts, giving the user all details for creating the recipe.
 
-The landing page gives you a preview and small summary of the recipes with links to the full instructions.
+The landing page has the starter with easy navigation to the 2 other recipes.
 
 
 
