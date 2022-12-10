@@ -4,6 +4,8 @@
     border: 0;
 }
 
+
+
 header {
     height: 15%;
     width: auto;
@@ -41,27 +43,46 @@ header li {
     background: url(images/libby-penner-4CnaFQRDI0A-unsplash\ \(1\).jpg) center center;
 }
 
-#recipes {
-    margin-left: 5%;
+#main {
+    display: flex;
+    justify-content: space-between;
 }
 
-#recipes li {
+#left {
+    width: 75%;
+
+    background-color: blueviolet;
+}
+
+#right li {
     list-style-type: none;
 }
 
-#recipes {
+#right {
     /* display: inline; */
+    width: 25%;
     padding: 15px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
+
+    background-color: aqua;
 }
 
-#recipes div {
+
+#right div {
     flex: 1 0 0%;
     /* display: flex; */
 }
 
-#recipes img {
+#right img {
     
+}
+
+
+
+
+footer {
+    background-color: brown;
 }
