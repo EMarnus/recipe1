@@ -12,7 +12,7 @@ Aside: #BEA6A1 */
 header {
     height: 15%;
     width: auto;
-    background-color: slategray;
+    background-color: #708090;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: antiquewhite;
+    color: #faebd7;
 }
 
 nav > ul {
@@ -50,6 +50,7 @@ header li {
 #main {
     display: flex;
     justify-content: space-between;
+    background-color: #E6F4F1;
 }
 
 #heading {
@@ -119,12 +120,22 @@ header li {
 }
 
 .active {
-    background-color: #9E1F1E;
-    color: antiquewhite;
+    background-color: #708090;
+    padding: 5px;
+}
+
+.active a {
+    color: #faebd7;
+    text-decoration: none;
 }
 
 
 footer {
-    text-decoration: none;
     padding: 15px;
+    background-color: #708090;
+}
+
+footer a {
+    /* text-decoration: none; */
+    color: antiquewhite;
 }
