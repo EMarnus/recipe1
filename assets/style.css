@@ -38,7 +38,10 @@ nav > ul {
     display: flex;
     text-decoration: none;
     list-style-type: none;
+    justify-content: flex-end;
 }
+
+
 
 header li {
     margin-right: 10px;
@@ -139,11 +142,17 @@ header li {
 footer {
     padding: 15px;
     background-color: #708090;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 footer a {
     /* text-decoration: none; */
     color: antiquewhite;
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
 }
 
 
