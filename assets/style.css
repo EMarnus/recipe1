@@ -4,14 +4,8 @@
     border: 0;
 }
 
-/* Colors
-Headier/Footer: #9E1F1E
-Body: #56423E
-Aside: #BEA6A1 */
-
 header {
-    height: 15%;
-    width: auto;
+    height: 75px;
     background-color: #708090;
     display: flex;
     justify-content: space-between;
@@ -28,6 +22,16 @@ header {
 header a {
     text-decoration: none;
     color: #faebd7;
+    padding: 5px;
+}
+
+nav a {
+    border: 2px solid black;
+}
+
+/* Change Color */
+.activenav {
+    background-color: red; 
 }
 
 nav > ul {
@@ -140,4 +144,19 @@ footer {
 footer a {
     /* text-decoration: none; */
     color: antiquewhite;
+}
+
+
+/* For screen size 1200px wide and down */
+@media screen and (max-width: 1200px){
+
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    header {
+        height: 150px;
+        justify-content: space-around;
+    }
 }
