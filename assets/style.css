@@ -42,7 +42,7 @@ nav a {
 
 /* Changes Nav button color for current page*/
 .activenav {
-    background-color: #B58236; 
+    background-color: #B58236;
 }
 
 nav > ul {
@@ -60,9 +60,11 @@ header li {
 }
 
 #hero {
-    height: 300px;
+    height: 700px;
     width: 100%;
-    background: url(images/libby-penner-4CnaFQRDI0A-unsplash\ \(1\).jpg) center center;
+    background: url(images/kelsey-chance-med-unsplash.jpg) no-repeat center center;
+    background-color: #E6F4F1;
+
 }
 
 #main {
@@ -173,6 +175,8 @@ footer a {
 
 }
 
+
+
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -187,5 +191,13 @@ footer a {
 
     #left {
         width: auto;
+    }
+
+    #hero {
+        height: 400px;
+        width: 100%;
+        background: url(images/kelsey-chance-small-unsplash.jpg) no-repeat center center;
+        background-color: #E6F4F1;
+
     }
 }
