@@ -4,8 +4,19 @@
     border: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.mainbody {
+    flex: 1;
+}
+
 header {
-    height: 75px;
+    min-height: 75px;
     background-color: #D9993B;
     display: flex;
     justify-content: space-between;
@@ -140,6 +151,7 @@ header li {
 
 
 footer {
+    min-height: 30px;
     padding: 15px;
     background-color: #D9993B;
     display: flex;
