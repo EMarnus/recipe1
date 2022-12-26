@@ -6,7 +6,7 @@
 
 header {
     height: 75px;
-    background-color: #708090;
+    background-color: #D9993B;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +21,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #faebd7;
+    color: black;
     padding: 5px;
 }
 
@@ -29,9 +29,9 @@ nav a {
     border: 2px solid black;
 }
 
-/* Change Color */
+/* Changes Nav button color for current page*/
 .activenav {
-    background-color: red; 
+    background-color: #B58236; 
 }
 
 nav > ul {
@@ -141,7 +141,7 @@ header li {
 
 footer {
     padding: 15px;
-    background-color: #708090;
+    background-color: #D9993B;
     display: flex;
     justify-content: space-between;
 }
@@ -149,7 +149,7 @@ footer {
 
 footer a {
     /* text-decoration: none; */
-    color: antiquewhite;
+    color: black;
     font-size: large;
     margin: 5px;
     padding: 5px;
