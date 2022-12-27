@@ -4,7 +4,8 @@ Social Recipes is a site for sharing 2 (for now) of my favourite recipes to make
 
 
 <!-- Add website example in different formfactor -->
-![Responsive Mockup](#)
+![Responsive Mockup Home](/documentation/assets/images/home%20example.PNG)
+![Responsive Mockup Recipe](/documentation/assets/images/recipe%20example.PNG)
 
 ## Features
 
@@ -14,16 +15,16 @@ Social Recipes is a site for sharing 2 (for now) of my favourite recipes to make
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - The navigation bar will highlight the page you are currently on.
 
-![Nav Bar](#)
+![Nav Bar](/documentation/assets/images/nav.PNG)
 
 - __The landing page image__
 
   - The landing includes a photograph with a social scene to help the user emotionally connect with the purpose of the visit.
 
 
-![Landing Page](#)
+![Landing Page](/documentation/assets/images/landing%20page.PNG)
 
-  - This section contains a brief paragraph on why I created the site.
+  - This page tries to convey the positives of participating in social gatherings.
 
 
 - __The Footer__
@@ -31,19 +32,19 @@ Social Recipes is a site for sharing 2 (for now) of my favourite recipes to make
   - The footer section includes copyright information and a smaller version of the nav bar.
   - The footer is valuable to the user as it eases the navigation to other pages after scrolling.
 
-![Footer](#)
+![Footer](/documentation/assets/images/footer.PNG)
 
 - __Starter__
 
   - This provides a savoury recipe that is very easy to share.
 
-![Starter](#)
+![Starter](/documentation/assets/images/starter.PNG)
 
 - __Dessert__
 
   - This provides a sweet recipe.
 
-![Dessert](#)
+![Dessert](/documentation/assets/images/dessert.PNG)
 
 ### Features Left to Implement
 
@@ -74,7 +75,7 @@ Validator testing found duplicate id="main" and h3 nested in p. id changed to cl
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+All found bugs have been fixed.
 
 ## Deployment
 
