@@ -60,7 +60,7 @@ header li {
     font-size: xx-large;
 }
 
-#hero {
+.hero {
     height: 700px;
     width: 100%;
     background: url(images/kelsey-chance-med-unsplash.webp) no-repeat center center;
@@ -168,6 +168,14 @@ footer a {
 /* For screen size 1200px wide and down */
 @media screen and (max-width: 1200px){
 
+    .dessert {
+        background: url(images/Black-forest-fridge-cake-717e407.webp) no-repeat center center;
+    }
+
+    .starter {
+        background: url(images/kimberley-wreath-aaaa23b.webp) no-repeat center center;
+    }
+
 }
 
 
@@ -188,11 +196,23 @@ footer a {
         width: auto;
     }
 
-    #hero {
-        height: 400px;
+    .hero {
+        height: 300px;
         width: 100%;
-        background: url(images/kelsey-chance-small-unsplash.webp) no-repeat center center;
         background-color: #E6F4F1;
 
     }
+
+    #dessert {
+        background: url(images/Black-forest-fridge-cake-717e407.webp) no-repeat center center;
+    }
+
+    #starter {
+        background: url(images/kimberley-wreath-aaaa23b.webp) no-repeat center center;
+    }
+
+    #home {
+        background: url(images/kelsey-chance-small-unsplash.webp) no-repeat center center;
+    }
+
 }
