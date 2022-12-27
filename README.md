@@ -1,18 +1,18 @@
 # Social Recipes
 
-Social Recipes is a site for sharing 2 (for now) of my favorite recipes to make for social gatherings. The site will be targeted at people organising small friend groups, social nights and/or game nights.
+Social Recipes is a site for sharing 2 (for now) of my favourite recipes to make for social gatherings. The site will be targeted at people organising small friend groups, social nights and/or game nights.
 
 
 <!-- Add website example in different formfactor -->
-![Responsice Mockup](#)
+![Responsive Mockup](#)
 
 ## Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the responsive navigation bar includes links to the Starter, Home page and Dessert page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the responsive navigation bar includes links to the Starter, Home page and Dessert page and is consistent on each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-  - The navigation bar includes active page hightlighting to easily see where you are.
+  - The navigation bar will highlight the page you are currently on.
 
 ![Nav Bar](#)
 
@@ -23,7 +23,7 @@ Social Recipes is a site for sharing 2 (for now) of my favorite recipes to make 
 
 ![Landing Page](#)
 
-  - This section contains a breif paragraph on why I created the site.
+  - This section contains a brief paragraph on why I created the site.
 
 
 - __The Footer__
@@ -35,20 +35,15 @@ Social Recipes is a site for sharing 2 (for now) of my favorite recipes to make 
 
 - __Starter__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+  - This provides a savoury recipe that is very easy to share.
 
-![Gallery](#)
+![Starter](#)
 
 - __Dessert__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+  - This provides a sweet recipe.
 
-![Sign Up](#)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Dessert](#)
 
 ### Features Left to Implement
 
@@ -56,15 +51,15 @@ In addition, you may also use this section to discuss plans for additional featu
 - This would help the site to grow organically, with some review oversite.
 
 - __Collapsable navigation bar__
-- This would helo keep the navigation clean as the number of pages increases. 
+- This would help keep the navigation clean as the number of pages increases. Unnecessary at this stage. 
 
 ## Testing
 
-I used basic ongoing testing as I was working throught the differnt sections, resizing the browser to make sure everthing reacts the way I expected and using Chrome's Developer Tools Toggle device toolbar function. 
+I used basic ongoing testing as I was working through the different sections, resizing the browser to make sure everything reacts the way I expected and using Chrome's Developer Tools Toggle device toolbar function. 
 
 Floating footer when not enough content on page. Fixed using flexbox vh on body.
 
-Tested with lighthouse, first test failed on Performace, 68. Replaced images with webp format and moved fontawesome script to below footer.
+Tested with lighthouse, first test failed on Performance, 68. Replaced images with webp format and moved fontawesome script to below footer.
 
 Validator testing found duplicate id="main" and h3 nested in p. id changed to class and p elements replaced with h3.
 
@@ -87,10 +82,10 @@ This section should describe the process you went through to deploy the project 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - Select "Deploy from a branch" in the Source Dropdown
+  - Select main in the Dropdown under Branch, after an amount of time the page will have a ribbon at the top that will say "Your site is live at https://NAME.github.io/REPONAME/" and should have a visit site button.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://emarnus.github.io/recipe1/
 
 
 ## Credits
@@ -105,13 +100,15 @@ You can break the credits section up into Content and Media, depending on what y
 
 - Home nav image taken from: Photo by <a href="https://unsplash.com/ja/@yvonnemorgun?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lee Myungseong</a> on <a href="https://unsplash.com/photos/y1XXWct5rBo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-- Home text contect taken form https://oakwoodresort.com/14-unbeatable-reasons-to-have-a-grand-gathering-this-year/ and amended.
+- Home text content taken form https://oakwoodresort.com/14-unbeatable-reasons-to-have-a-grand-gathering-this-year/ and amended.
 
 - Recipes and images were taken from:
 Starter: https://www.bbcgoodfood.com/recipes/festive-filled-brioche-centrepiece-baked-camembert
 Desert: https://www.bbcgoodfood.com/recipes/black-forest-fridge-cake -->
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+- Readme template taken from https://github.com/Code-Institute-Solutions/readme-template
 
 <!-- Delete this section when done.
 
