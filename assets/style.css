@@ -13,6 +13,7 @@ body {
 
 .mainbody {
     flex: 1;
+    background-color: #E6F4F1;
 }
 
 header {
@@ -70,7 +71,6 @@ header li {
 #main {
     display: flex;
     justify-content: space-between;
-    background-color: #E6F4F1;
 }
 
 #heading {
