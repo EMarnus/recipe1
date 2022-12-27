@@ -2,8 +2,12 @@
 
 Social Recipes is a site for sharing 2 (for now) of my favourite recipes to make for social gatherings. The site will be targeted at people organising small friend groups, social nights and/or game nights.
 
+The website was designed with KISS methodology. Using a very simple layout that was slightly changed in the final product and an almost 3 tone color palate.
 
-<!-- Add website example in different formfactor -->
+__Concept Wireframe, made in Balsamiq__
+![Wireframe Image](/documentation/assets/images/Recipe%201%20pg1.png)
+
+__Final Website__
 ![Responsive Mockup Home](/documentation/assets/images/home%20example.PNG)
 ![Responsive Mockup Recipe](/documentation/assets/images/recipe%20example.PNG)
 
@@ -72,6 +76,9 @@ Validator testing found duplicate id="main" and h3 nested in p. id changed to cl
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Femarnus.github.io%2Frecipe1%2Findex.html), after correct first check result.
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femarnus.github.io%2Frecipe1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+
+![Lighthouse Score](/documentation/assets/images/Lighthouse.PNG)
 
 ### Unfixed Bugs
 
