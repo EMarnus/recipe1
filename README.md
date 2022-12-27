@@ -60,21 +60,14 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing
 
-I used basic ongoing testing as I was working throught the differnt sections, resizing the browser to make sure everthing reacts the way I expected and using Chrome's Developer Tools Tobble devise toolbar function. 
+I used basic ongoing testing as I was working throught the differnt sections, resizing the browser to make sure everthing reacts the way I expected and using Chrome's Developer Tools Toggle device toolbar function. 
 
 Floating footer when not enough content on page. Fixed using flexbox vh on body.
 
-Tested with lighthouse, first test failed on Performace, 68.
+Tested with lighthouse, first test failed on Performace, 68. Replaced images with webp format and moved fontawesome script to below footer.
 
+Validator testing found duplicate id="main" and h3 nested in p. id changed to class and p elements replaced with h3.
 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing

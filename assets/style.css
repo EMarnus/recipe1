@@ -68,7 +68,7 @@ header li {
 
 }
 
-#main {
+.main {
     display: flex;
     justify-content: space-between;
 }
