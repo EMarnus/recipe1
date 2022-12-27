@@ -63,7 +63,7 @@ header li {
 #hero {
     height: 700px;
     width: 100%;
-    background: url(images/kelsey-chance-med-unsplash.jpg) no-repeat center center;
+    background: url(images/kelsey-chance-med-unsplash.webp) no-repeat center center;
     background-color: #E6F4F1;
 
 }
@@ -191,7 +191,7 @@ footer a {
     #hero {
         height: 400px;
         width: 100%;
-        background: url(images/kelsey-chance-small-unsplash.jpg) no-repeat center center;
+        background: url(images/kelsey-chance-small-unsplash.webp) no-repeat center center;
         background-color: #E6F4F1;
 
     }

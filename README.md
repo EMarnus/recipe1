@@ -64,6 +64,8 @@ I used basic ongoing testing as I was working throught the differnt sections, re
 
 Floating footer when not enough content on page. Fixed using flexbox vh on body.
 
+Tested with lighthouse, first test failed on Performace, 68.
+
 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -107,11 +109,13 @@ You can break the credits section up into Content and Media, depending on what y
 ### Media & Content
 
 - Hero image; Photo by <a href="https://unsplash.com/@kchance8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelsey Chance</a> on <a href="https://unsplash.com/photos/BB4GbHiU1KY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- Home nav image taken from: Photo by <a href="https://unsplash.com/ja/@yvonnemorgun?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lee Myungseong</a> on <a href="https://unsplash.com/photos/y1XXWct5rBo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+- Home text contect taken form https://oakwoodresort.com/14-unbeatable-reasons-to-have-a-grand-gathering-this-year/ and amended.
 
 - Recipes and images were taken from:
 Starter: https://www.bbcgoodfood.com/recipes/festive-filled-brioche-centrepiece-baked-camembert
-Mains: https://www.bbcgoodfood.com/recipes/cheats-christmas-turkey-red-cabbage-wedges
 Desert: https://www.bbcgoodfood.com/recipes/black-forest-fridge-cake -->
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
