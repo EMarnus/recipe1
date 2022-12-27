@@ -2,13 +2,20 @@
 
 Social Recipes is a site for sharing 2 (for now) of my favourite recipes to make for social gatherings. The site will be targeted at people organising small friend groups, social nights and/or game nights.
 
-The website was designed with KISS methodology. Using a very simple layout that was slightly changed in the final product and an almost 3 tone color palate.
+The website was designed with KISS methodology. Using a very simple layout that was slightly changed in the final product and an almost 3 tone color palate. Gold for the Header, footer and nav elements with a darker shade it indicate current page and a very light off white for the body background just to soften it.
 
-__Concept Wireframe, made in Balsamiq__
+- __Concept Wireframe, made in Balsamiq__
+
 ![Wireframe Image](/documentation/assets/images/Recipe%201%20pg1.png)
 
-__Final Website__
+- __Final Website__
+
+- Landing page
+
 ![Responsive Mockup Home](/documentation/assets/images/home%20example.PNG)
+
+- Recipe page
+
 ![Responsive Mockup Recipe](/documentation/assets/images/recipe%20example.PNG)
 
 ## Features
