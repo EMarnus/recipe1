@@ -1,5 +1,8 @@
 # Social Recipes
 
+[Link to live project](https://emarnus.github.io/recipe1/)
+
+
 Social Recipes is a site for sharing 2 (for now) of my favourite recipes to make for social gatherings. The site will be targeted at people organising small friend groups, social nights and/or game nights.
 
 The website was designed with KISS methodology. Using a very simple layout that was slightly changed in the final product and an almost 3 tone color palate. Gold for the Header, footer and nav elements with a darker shade it indicate current page and a very light off white for the body background just to soften it.
@@ -75,7 +78,7 @@ Tested with lighthouse, first test failed on Performance, 68. Replaced images wi
 
 Validator testing found duplicate id="main" and h3 nested in p. id changed to class and p elements replaced with h3.
 
-
+Desktop testing was done on Chrome and Edge, further testing on Samsung S21 using Chrome and Samsung browser.
 
 ### Validator Testing
 
