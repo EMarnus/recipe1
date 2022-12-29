@@ -16,6 +16,7 @@ body {
     background-color: #E6F4F1;
 }
 
+/* Header and Nav Bar */
 header {
     min-height: 75px;
     background-color: #D9993B;
@@ -60,6 +61,7 @@ header li {
     font-size: xx-large;
 }
 
+/* Hero Image */
 .hero {
     height: 700px;
     width: 100%;
@@ -68,57 +70,25 @@ header li {
 
 }
 
+/* Main Body */
 .main {
     display: flex;
     justify-content: space-between;
 }
 
-#heading {
-
-}
-
+/* Text content: intro paragraphs, ingredients and recipe steps */
 #left {
     width: 75%;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-}
-
-#right li, #left li {
-    list-style-type: none;
-}
-
-#right {
-    width: 30%;
-    height: fit-content;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 300px;
-}
-
-#right a {
-    color: black;
-}
-
-
-#right div {
-    flex: 1 0 0%;
-}
-
-#right img {
-    max-width: 100%;
-    height: auto;
+    padding: 50px;
 }
 
 #ingredients, #method {
     display: flex;
     flex: 1 1 auto;
-    padding-top: 10px;
+    padding-top: 20px;
     flex-wrap: wrap;
-
-
 }
 
 #ingredients ul {
@@ -133,7 +103,37 @@ header li {
 }
 
 .list li h3 {
-    padding-left: 5px;
+    padding: 10px 0 5px 10px;
+}
+
+#right li, #left li {
+    list-style-type: none;
+}
+
+/* Right body Nav */
+#right {
+    width: 30%;
+    height: fit-content;
+    padding: 15px 50px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+}
+
+#right a {
+    color: black;
+}
+
+
+#right div {
+    flex: 1 0 0%;
+    margin-top: 40px;
+}
+
+#right img {
+    max-width: 100%;
+    height: auto;
 }
 
 .active {
@@ -147,6 +147,7 @@ header li {
 }
 
 
+/* Footer */
 footer {
     min-height: 30px;
     padding: 15px;
@@ -174,6 +175,10 @@ footer a {
 
     .starter {
         background: url(images/kimberley-wreath-aaaa23b.webp) no-repeat center center;
+    }
+
+    #left {
+        padding: 25px;
     }
 
 }
@@ -204,7 +209,7 @@ footer a {
     }
 
     #dessert {
-        background: url(images/Black-forest-fridge-cake-717e407.webp) no-repeat center center;
+        background: url(images/black-forest-fridge-cake-717e407.webp) no-repeat center center;
     }
 
     #starter {

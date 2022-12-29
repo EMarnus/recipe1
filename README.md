@@ -90,6 +90,12 @@ Desktop testing was done on Chrome and Edge, further testing on Samsung S21 usin
 
 ![Lighthouse Score](/documentation/assets/images/Lighthouse.PNG)
 
+### Some fixed bugs
+
+- Floating footer.
+- Text alignment on right nav elements.
+- h3 as a child of a paragraph on right nav.
+
 ### Unfixed Bugs
 
 All found bugs have been fixed.
