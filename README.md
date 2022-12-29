@@ -7,11 +7,26 @@ Social Recipes is a site for sharing 2 (for now) of my favourite recipes to make
 
 The website was designed with KISS methodology. Using a very simple layout that was slightly changed in the final product and an almost 3 tone color palate. Gold for the Header, footer and nav elements with a darker shade it indicate current page and a very light off white for the body background just to soften it.
 
-- __Concept Wireframe, made in Balsamiq__
+
+## User Experience (UX) - User stories
+
+- __First Time Visitor Goals:__
+
+  - As a First Time Visitor, I want to easily understand the main purpose of the site. 
+  - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+
+- __Returning Visitor Goals__
+
+  - As a Returning Visitor, I want to be able to easiy find the content I'm looking for.
+
+--------
+
+## Concept Wireframe, made in Balsamiq
 
 ![Wireframe Image](/documentation/assets/images/Recipe%201%20pg1.png)
 
-- __Final Website__
+## Final Website
 
 - Landing page
 
@@ -20,6 +35,8 @@ The website was designed with KISS methodology. Using a very simple layout that 
 - Recipe page
 
 ![Responsive Mockup Recipe](/documentation/assets/images/recipe%20example.PNG)
+
+----------
 
 ## Features
 
@@ -60,6 +77,8 @@ The website was designed with KISS methodology. Using a very simple layout that 
 
 ![Dessert](/documentation/assets/images/dessert.PNG)
 
+----------
+
 ### Features Left to Implement
 
 - __Submit Recipes - Scrapped due to scope__
@@ -67,6 +86,29 @@ The website was designed with KISS methodology. Using a very simple layout that 
 
 - __Collapsable navigation bar__
 - This would help keep the navigation clean as the number of pages increases. Unnecessary at this stage. 
+
+----------
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add copyright icon.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
+
+
+-----------
 
 ## Testing
 
@@ -98,7 +140,7 @@ Desktop testing was done on Chrome and Edge, further testing on Samsung S21 usin
 
 ### Unfixed Bugs
 
-All found bugs have been fixed.
+- On very narrow displays the nav elements clip outside the screen.
 
 ## Deployment
 
@@ -111,6 +153,7 @@ This section should describe the process you went through to deploy the project 
 
 The live link can be found here - https://emarnus.github.io/recipe1/
 
+-------------
 
 ## Credits
 
@@ -132,7 +175,7 @@ Desert: https://www.bbcgoodfood.com/recipes/black-forest-fridge-cake -->
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-- Readme template taken from https://github.com/Code-Institute-Solutions/readme-template
+- Readme template taken from https://github.com/Code-Institute-Solutions/readme-template with portions taken from https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md
 
 <!-- Delete this section when done.
 
